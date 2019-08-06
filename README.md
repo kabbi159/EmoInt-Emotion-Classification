@@ -9,6 +9,14 @@ I do not use intensity, **only tweet for input and emotion for output**.
 ## Model
 Conv1D - MaxPool1D - Dense(1000) - Dense(4)
 
+```
+batch size: 4
+conv kernel: 5
+epochs: 10
+dropout rate: 0.5
+loss: categorical cross-entropy
+optimizer: adam
+```
 
 ## Result
 |       | Loss   | Accuracy |
