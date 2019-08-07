@@ -10,9 +10,9 @@ I do not use intensity, **only tweet for input and emotion for output**.
 Conv1D - MaxPool1D - Dense(1000) - Dense(4)
 
 ```
-batch size: 4
+batch size: 8
 conv kernel: 5
-epochs: 10
+epochs: 8
 dropout rate: 0.5
 loss: categorical cross-entropy
 optimizer: adam
@@ -21,7 +21,7 @@ optimizer: adam
 ## Result
 |       | Loss   | Accuracy |
 | :---: | :----: | :------: |
-| Train | 0.1228 | 0.9678   |
-| Test  | 1.0312 | 0.8132   |
+| Train | 0.0451 | 0.9846   |
+| Test  | 0.8364 | 0.7952   |
 
 To Do: Solve overfitting problem
